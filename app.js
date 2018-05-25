@@ -5,9 +5,8 @@ const bodyParser = require('body-parser');
 
 // Load routes into variables
 const index = require('./routes/index');
-const users = require('./routes/users');
-const calendars = require('./routes/calendars');
-const events = require('./routes/events');
+const snippets = require('./routes/SnippetService');
+
 
 const app = express();
 
@@ -23,9 +22,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Configure routes in Express webserver
 app.use('/', index);
-app.use('/users', users);
-app.use('/calendars', calendars);
-app.use('/events', events);
+app.use('/snippets', snippets);
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

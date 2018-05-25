@@ -1,6 +1,6 @@
 let config = {};
 
-config.storageAccount = "richardstorageacc"
-config.storageKey = "UgD7zPG1M9NOjkeSAsB9YwowjwvR/+C/1N/7X8Z7dldBD3YvIaynlH1g4+zrQqnEj+bbtfGm4P+g3U8JwvwW+A=="
+config.storageAccount = "richardcco"
+config.storageKey = 'xtd4TZ5R3Mra9z/+b5+oUOnf7I6YfvYQvpz310hXRivUZsEC8hemczf4AQ2ds4N2jwiclVUWX+aTm1PHISIfgQ=='
 
 module.exports = config;
